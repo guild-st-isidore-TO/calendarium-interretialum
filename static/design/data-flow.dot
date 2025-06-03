@@ -1,0 +1,21 @@
+digraph {
+    label = "\nCalendarium Interretialum\nData Flow";
+    node [shape = box;];
+    
+    currentDate -> romcalJS;
+    romcalJS -> romcalLiturgicalDay;
+    romcalLiturgicalDay -> calendariumInterretialum;
+    
+    calendariumInterretialum -> outputHtml [color = blue;];
+    calendariumInterretialum -> outputMarkdown [color = blue;];
+    calendariumInterretialum -> outputPdf [color = blue;];
+    
+    currentDate [shape = note;label = "Given Date & Time";];
+    romcalJS [shape = box3d;];
+    romcalLiturgicalDay [shape = note;label = "LiturgicalDay\n(romcalJS)";];
+    calendariumInterretialum [label = "calendarium-interretialum";shape = box3d;];
+    
+    outputHtml [shape = folder;label = "output/html/";color = blue;];
+    outputMarkdown [shape = folder;label = "output/md/";color = blue;];
+    outputPdf [shape = folder;label = "output/pdf/";color = blue;];
+}
