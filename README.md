@@ -1,6 +1,10 @@
 # calendarium-interretialum
 
-Digital Liturgical Calendar
+Calendar of the Internet - GSI's Digital Liturgical Calendar
+
+Part of the FAVI System: https://github.com/guild-st-isidore-TO/fabrica-virtualis
+
+---
 
 ## audience
 
