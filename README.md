@@ -6,6 +6,9 @@ Part of the FAVI System: https://github.com/guild-st-isidore-TO/fabrica-virtuali
 
 ---
 
+> STATUS (VIII Augustii MMXXV)  
+On Hold -- Updated readme recently, not much more happening
+
 ## audience
 
 - clergy and religious
