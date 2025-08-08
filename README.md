@@ -1,4 +1,4 @@
-# calendarium-interretialum
+# Calendarium Interretialum (CALI)
 
 Calendar of the Internet - GSI's Digital Liturgical Calendar
 
